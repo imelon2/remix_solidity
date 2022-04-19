@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "CountryIndexName",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "useBreak",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "useContinue",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lecture/continueBreak.sol": "continueBreak"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lecture/continueBreak.sol": {
+			"keccak256": "0xea8e9e88af0c29d84ac48c78f155e014d8dd1f1442e3019d4a90b0e79e413af6",
+			"license": "GPL-30",
+			"urls": [
+				"bzz-raw://df1e94b6bce6ec288ffe89f45faa6eb3c6b790b7e0ac14ba1e11426b819f654f",
+				"dweb:/ipfs/QmUfgJxuHmFLn8yogXdAGok17GHKyGcqAJsPyuowWws6iG"
+			]
+		}
+	},
+	"version": 1
+}

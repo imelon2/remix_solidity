@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "pName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "pAge",
+						"type": "uint256"
+					}
+				],
+				"name": "change",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lecture/constructor.sol": "B"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lecture/constructor.sol": {
+			"keccak256": "0xb6815062d0edf7a8189eca37883e166c806fe502a3a86a3208e19b763f83a90a",
+			"license": "GPL-30",
+			"urls": [
+				"bzz-raw://f8ef8bbea04528962553fd9310c131338cdb1e97ef73135ad6fe55dd5eea8e3a",
+				"dweb:/ipfs/QmZE5w8UVUQzpQS3he1vcyucRFXvdw9hEbri2MWGwPSW1T"
+			]
+		}
+	},
+	"version": 1
+}

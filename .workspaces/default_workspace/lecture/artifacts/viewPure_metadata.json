@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "func3",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lecture/viewPure.sol": "viewPure"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lecture/viewPure.sol": {
+			"keccak256": "0xacc327b1b24661dea2df2268eeec14ab516011b5461af6c5ce6da4e378417583",
+			"license": "GPL-30",
+			"urls": [
+				"bzz-raw://706d956fdd4b2e9813e20dc359e23bb66b2008d4cbe27b1383c6180452292774",
+				"dweb:/ipfs/QmZ7heLEEWHNvbxk9WW4NrjGi8DyzFBADH4rYkHPT9j3Ua"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_contractAddr",
+						"type": "address"
+					}
+				],
+				"name": "callNow",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_contractAddr",
+						"type": "address"
+					}
+				],
+				"name": "delcateCallNow",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "num",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lecture/delegateCall.sol": "caller"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lecture/delegateCall.sol": {
+			"keccak256": "0x9fd621fdbec9a240d20305cd2d23e9d407cee55c3cd32d3eaf77a98707a6022e",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://f90df010162f3dd3241831e3dad391d55a216d8e1a638a43e7896c0d91b1a0fe",
+				"dweb:/ipfs/QmQfttNSMa3kT6ttBTFen6RqcsaC5zkHMNthfYDvnRs3PK"
+			]
+		}
+	},
+	"version": 1
+}

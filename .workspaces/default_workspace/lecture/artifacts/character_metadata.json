@@ -1,0 +1,62 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_power",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lecture/tryCatch2.sol": "character"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lecture/tryCatch2.sol": {
+			"keccak256": "0xe2bf0e7beac2c0d4e6749fc88c32333ba102706bc6307a8a60aa909b28b2502d",
+			"license": "GPL-30",
+			"urls": [
+				"bzz-raw://beff133edff055b72566048f34f00cd8f143ca4e719e1381644e434a06096d83",
+				"dweb:/ipfs/QmaBncS5RFmqNcBVDD5JroYqi1torW2eekdUZiZBjPGSvo"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "assertNow",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "requireNow",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "revertNow",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lecture/errorHandle08ver.sol": "errorHandleC"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lecture/errorHandle08ver.sol": {
+			"keccak256": "0xdd3e0243c44c771080cc8e79f49e88f58625a7b97c69abe0ba5bcfbbc284efde",
+			"license": "GPL-30",
+			"urls": [
+				"bzz-raw://89a761a96eeba54dcb92b42cbe9093c9697133750d419c097bcc271d746affb8",
+				"dweb:/ipfs/QmSc5BQvr5X1t3ohsh8K2osy6gQ7GuneB42kBBijZE2bSB"
+			]
+		}
+	},
+	"version": 1
+}

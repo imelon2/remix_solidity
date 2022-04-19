@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_str",
+						"type": "string"
+					}
+				],
+				"name": "get_string",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lecture/storage.sol": "storageC"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lecture/storage.sol": {
+			"keccak256": "0x6eaaf756ff7e78c5ba20bf8af52f173f03563329e25e56b440a184623c1beb87",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://be015189984316462239c9d5bea802c0df6caaeb120c9f79c9a51e45755ba062",
+				"dweb:/ipfs/QmTXVFjD6k5DESpHQ9FCGkWQjBoKZJ22aPCk4qqesA72oa"
+			]
+		}
+	},
+	"version": 1
+}

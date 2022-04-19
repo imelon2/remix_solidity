@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_num2",
+						"type": "uint256"
+					}
+				],
+				"name": "division",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lecture/tryCatch.sol": "math"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lecture/tryCatch.sol": {
+			"keccak256": "0x903eff17b9d45e7d1cff3cc84debf082c58348ba70c83b65865c2cd978f5119b",
+			"license": "GPL-30",
+			"urls": [
+				"bzz-raw://47269f5bc95436e0396c12250c3c759b1f59f7a297607c7701d70c9306b44025",
+				"dweb:/ipfs/QmPtpe27bRe2KmzS4AHRGtcMJyKYcfqEDNX6NbricLGnXJ"
+			]
+		}
+	},
+	"version": 1
+}
