@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "currentTime",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".workspaces/default_workspace/unMiracle/utils/time.sol": "tims"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".workspaces/default_workspace/unMiracle/utils/time.sol": {
+			"keccak256": "0xafe2facd1001bab016130e6f2695e7eb01d109712cb7b0a91700832baa3803d9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://32b65be1865f6afdf778da0a5f5cab04785884aedda3da8b818717d631c51cf6",
+				"dweb:/ipfs/QmSgYchNuVcfLzxQ46oKJMnozwUQvWHaygLLo3fy1heAgn"
+			]
+		}
+	},
+	"version": 1
+}

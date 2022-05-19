@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".workspaces/default_workspace/unMiracle/UMRCLsetting.sol": "UMRCLsetting"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".workspaces/default_workspace/unMiracle/UMRCLsetting.sol": {
+			"keccak256": "0xc5ed2db1fcbac392a032367fe7789864bf95c8b19bd093da6337776289846541",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://aa26c856938834eed42e079666b77c6831f3ec90760bd10a0be79fc97bd27cea",
+				"dweb:/ipfs/QmaCBQPnXoQnDLYdo8JoryU4qeGH4YtZMnpeCUbJhuhJFe"
+			]
+		},
+		".workspaces/default_workspace/unMiracle/UMRIcore.sol": {
+			"keccak256": "0x790dac249d44ee04f565e8e01e4157b4ffa5c55de36266aa9f7e340178178a6e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8709e847b8132ef633561bf52030ca05a201fc919385b86a67284d9b6aff5585",
+				"dweb:/ipfs/QmSyJpEpYu83eoRyFT8XXG5jiyon8KQjM4AfiMpzHAvGGa"
+			]
+		}
+	},
+	"version": 1
+}

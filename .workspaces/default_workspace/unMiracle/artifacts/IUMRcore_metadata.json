@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".workspaces/default_workspace/unMiracle/IUMRcore.sol": "IUMRcore"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".workspaces/default_workspace/unMiracle/IUMRcore.sol": {
+			"keccak256": "0xdec95e4ad24a90179a96149086823f8e4b19e95890feef5ad3f227733dc39535",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://33e0fd9971acb1622b1ed9888d82d942cd21fa30d145b8f8e272d93795e8d198",
+				"dweb:/ipfs/QmRXqyMFTi7XsvKJj8GjJWEAYJmFK84WK45KMoRuZLRa1u"
+			]
+		}
+	},
+	"version": 1
+}

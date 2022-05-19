@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getOwner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".workspaces/default_workspace/unMiracle/UMRIcore.sol": "UMRIcore"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".workspaces/default_workspace/unMiracle/UMRIcore.sol": {
+			"keccak256": "0xc6b3dcbeeeb4c1cce5b57cfc54150710e78a4da6de0d95f9e3c525c9dcf92009",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://345d2b8194ec6f21de9a24bbd397ce13170df0b936112be243c465c8ae6b2a3d",
+				"dweb:/ipfs/QmPjxqjrGj5zN5zRVfFjEgkk4SZRVYsYKbzNpXb3Jq4zQ3"
+			]
+		}
+	},
+	"version": 1
+}

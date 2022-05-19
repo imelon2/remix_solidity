@@ -1,0 +1,277 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address[]",
+						"name": "destination",
+						"type": "address[]"
+					},
+					{
+						"internalType": "bytes[]",
+						"name": "calldatas",
+						"type": "bytes[]"
+					},
+					{
+						"internalType": "string",
+						"name": "description",
+						"type": "string"
+					}
+				],
+				"name": "execute",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "proposalId",
+						"type": "uint256"
+					}
+				],
+				"name": "getCurrentAmount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address[]",
+						"name": "destination",
+						"type": "address[]"
+					},
+					{
+						"internalType": "bytes[]",
+						"name": "calldatas",
+						"type": "bytes[]"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "descriptionHash",
+						"type": "bytes32"
+					}
+				],
+				"name": "hashProposal",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "donateDelay",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "donatePeriod",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "donateMinimum",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address[]",
+						"name": "destination",
+						"type": "address[]"
+					},
+					{
+						"internalType": "bytes[]",
+						"name": "calldatas",
+						"type": "bytes[]"
+					},
+					{
+						"internalType": "string",
+						"name": "description",
+						"type": "string"
+					}
+				],
+				"name": "proposal",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "proposalId",
+						"type": "uint256"
+					}
+				],
+				"name": "proposalDeadline",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "proposalId",
+						"type": "uint256"
+					}
+				],
+				"name": "proposalDonateMinimum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "proposalId",
+						"type": "uint256"
+					}
+				],
+				"name": "proposalSnapshot",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "proposalId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "setCurrentAmount",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "proposalId",
+						"type": "uint256"
+					}
+				],
+				"name": "state",
+				"outputs": [
+					{
+						"internalType": "enum IUMRcore.ProposalState",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".workspaces/default_workspace/unMiracle/UMRproposal.sol": "UMRproposal"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".workspaces/default_workspace/unMiracle/IUMRcore.sol": {
+			"keccak256": "0x7f36e4068661e211bd4942e233e5036fdadbdfdb26ecf045c22ca4c770beebd6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ce2040dc94de53a9c6f91c96bf55bc0f3eda2b18a1862858f396d58e97d4b44c",
+				"dweb:/ipfs/QmbaJ4TjhZigWUwSuhf5iVS3H1wDnmJTykbgY6rY7ryCnL"
+			]
+		},
+		".workspaces/default_workspace/unMiracle/UMRproposal.sol": {
+			"keccak256": "0x90d983d31d84a83f1f3d60f95433d5fb8b6746e117f54de173d331fc32f85b92",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ea5e957c905b90519a5e5a0a44725403a652c6d2d54837f2df1cddf4a94ac9bb",
+				"dweb:/ipfs/Qmeu3N8gHNZeWhK3USC6txa7oLQZXA3GMYFT63WBDTYJko"
+			]
+		},
+		".workspaces/default_workspace/unMiracle/utils/setting.sol": {
+			"keccak256": "0xa516542919c085e5417c1c30a94eaa572131d622b8c4791937de87a0f63bdd20",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://379c0193c45424547cf268e2a81f9e9b104b6f83e239acb77ef6a17abaf547a5",
+				"dweb:/ipfs/QmP5X8Uvuap4cxwSQcrFmvhpHM3buLyyVRGCqQLvx6kuJ5"
+			]
+		}
+	},
+	"version": 1
+}

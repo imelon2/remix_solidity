@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".workspaces/default_workspace/unMiracle/utils/setting.sol": "Setting"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".workspaces/default_workspace/unMiracle/utils/setting.sol": {
+			"keccak256": "0xa516542919c085e5417c1c30a94eaa572131d622b8c4791937de87a0f63bdd20",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://379c0193c45424547cf268e2a81f9e9b104b6f83e239acb77ef6a17abaf547a5",
+				"dweb:/ipfs/QmP5X8Uvuap4cxwSQcrFmvhpHM3buLyyVRGCqQLvx6kuJ5"
+			]
+		}
+	},
+	"version": 1
+}

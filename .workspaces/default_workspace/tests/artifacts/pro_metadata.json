@@ -1,0 +1,94 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "get",
+				"outputs": [
+					{
+						"components": [
+							{
+								"components": [
+									{
+										"internalType": "uint256",
+										"name": "deadline",
+										"type": "uint256"
+									}
+								],
+								"internalType": "struct Time.Timestamp",
+								"name": "donationStart",
+								"type": "tuple"
+							}
+						],
+						"internalType": "struct pro.ProposalCore",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "test",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".workspaces/default_workspace/tests/pro.sol": "pro"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".workspaces/default_workspace/tests/pro.sol": {
+			"keccak256": "0x289f6cfad8a08d5e7da880f9f44032a9f94868651349c6f6dd01eaf908532b37",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://50406a594363b3fcb253886cfa71c8030e7a2bebea4a08fb0440e0bc52442b52",
+				"dweb:/ipfs/QmZ5FrwsVTDDMnLD5wKzcHm82zfqW3uVLY2isnUjFAEp4w"
+			]
+		},
+		".workspaces/default_workspace/tests/time.sol": {
+			"keccak256": "0x53b2644a83d6cadb1af652f3393d549fa682c5c07be16dc2311670a0570bd74e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://85e78ea7eff546595d5eee45fbe43ed27462e7bb65ae9e81581ae3055ae04a11",
+				"dweb:/ipfs/QmVHjZFfXmwjq1ChpWbxQFCy2rdb7iKV5bh32tnVhFd8MT"
+			]
+		}
+	},
+	"version": 1
+}
